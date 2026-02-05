@@ -11,11 +11,13 @@
             padding: 20px;
         }
         h1 {
-            margin-bottom: 20px;
+            color: #1db954;
+        }
+        .song {
+            margin-top: 20px;
         }
         audio {
             width: 100%;
-            margin: 10px 0;
         }
     </style>
 </head>
@@ -23,12 +25,13 @@
 
 <h1>🎵 MySpotify</h1>
 
-<p>Sample Song:</p>
-<audio controls>
-    <source src="songs/sample.mp3" type="audio/mpeg">
-    Your browser does not support audio.
-</audio>
+<div class="song">
+    <p>Sample Song</p>
+    <audio controls>
+        <source src="songs/sample.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+</div>
 
 </body>
 </html>
-
